@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class admincontrolpanel extends JFrame {
-    private String path = "/home/snowden/test/Metro-Rail/";
+    private String path = "/home/snowden/java/icons/";
    // private String[] items = {"Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10"};
     admincontrol  admin;
     String[] items = admincontrol.getAllUsernames();

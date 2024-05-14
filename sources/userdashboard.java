@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class userdashboard extends JFrame implements ActionListener {
-    private String path = "/home/snowden/test/Metro-Rail/icons/";
+    private String path = "/home/snowden/java/Metro-Rail/icons/";
     private ImageIcon logo = new ImageIcon(path + "rail.jpeg");
     private JLabel logoLabel = new JLabel(logo);
     private JPanel topPanel = new JPanel();

@@ -4,7 +4,7 @@ import java.io.*;
 import javax.swing.JOptionPane;
 
 public class usercontrol{
-    public  static String filepath = "/home/snowden/test/Metro-Rail/database/users";
+    public  static String filepath = "./database/users";
     public String username;
 
 

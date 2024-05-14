@@ -8,7 +8,7 @@ import sources.*;
 
 public class register extends JFrame  implements ActionListener {
     private usercontrol user = new usercontrol();;
-    private String path = "/home/snowden/test/Metro-Rail";
+    private String path = "/home/snowden/java/Metro-Rail/icons/";
     private ImageIcon rp = new ImageIcon(path + "registration.png");
     private JLabel icon = new JLabel();
     private JPanel rightPanel = new JPanel();

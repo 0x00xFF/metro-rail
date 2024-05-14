@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 public class recharge extends JFrame implements ActionListener {
-    private String path = "/home/snowden/test/Metro-Rail//icons/";
+    private String path = "./icons/";
 
     private JLabel titleLabel = new JLabel("Recharge your account");
     private JPanel mainPanel = new JPanel();

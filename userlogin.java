@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class userlogin extends JFrame implements ActionListener {
-    private  String path = "/home/snowden/test/Metro-Rail";
+    private  String path = "/home/snowden/java/Metro-Rail/icons/icons/";
     private ImageIcon icon = new ImageIcon(path + "icon.png");
     private ImageIcon backgroundimg = new ImageIcon(path + "userloginback.png");
     private ImageIcon adminI = new ImageIcon(path + "userbig.png");

@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class profilesetting extends JFrame implements ActionListener {
-    private String path = "/home/snowden/test/Metro-Rail//icons/";
+    private String path = "/home/snowden/java/Metro-Rail/icons/";
     private JLabel titleLabel = new JLabel("Profile Settings");
     private JLabel iconLabel = new JLabel();
     private JPanel topPanel = new JPanel();

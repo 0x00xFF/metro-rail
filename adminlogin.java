@@ -1,10 +1,12 @@
+import sources.admincontrolpanel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class adminlogin extends JFrame implements ActionListener {
-    private  String path = "/home/snowden/test/Metro-Rail/";
+    private  String path = "/home/snowden/java/Metro-Rail/icons/";
     private ImageIcon icon = new ImageIcon(path + "icon.png");
     private ImageIcon backgroundimg = new ImageIcon(path + "adminloginback.jpg");
     private ImageIcon adminI = new ImageIcon(path + "adminbig.png");
@@ -81,6 +83,7 @@ public class adminlogin extends JFrame implements ActionListener {
         login.setBackground(new Color(71,190,150));
         login.setFont(new Font("Nerd Font", Font.TRUETYPE_FONT, 30));
         login.setFocusable(false);
+        login.addActionListener(this);
 
 
         //login as user button
@@ -110,6 +113,9 @@ public class adminlogin extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent actionEvent) {
         if(actionEvent.getSource()==userlogin){
             new userlogin();
+        }
+        if(actionEvent.getSource()==login){
+            new admincontrolpanel();
         }
 
     }

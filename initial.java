@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class initial extends JFrame implements ActionListener {
     private JLabel centericon = new JLabel();
     private  JLabel background = new JLabel();
-    private  String path = "/home/snowden/test/Metro-Rail";
+    private  String path = "/home/snowden/java/Metro-Rail/icons/";
     private  JButton adminB = new JButton("Admin");
     private JButton userB = new JButton("User");
     ImageIcon icon = new ImageIcon(path + "icon.png");
